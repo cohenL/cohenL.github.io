@@ -1,0 +1,82 @@
+h1, h2 {
+	font-family: 'Playfair Display', serif;
+}
+
+#nav-logo {
+	height: 40px;
+}
+
+.dropdown-item.active {
+	background-color: #343a40;
+}
+.dropdown:hover .dropdown-menu {
+	display: block !important;
+}
+
+.jumbotron {
+
+	background-size: cover;
+
+} 
+
+.jumbotron-home {
+	background-image: url("../images/HomePage.jpg");	
+	background-position: 50% 50%;
+	min-height: 325px;
+}
+
+.jumbotron-my-projects {
+	background-image: url("../images/myProjectsPage.png");	
+	background-position: 50% 35%;
+	min-height: 150px;
+}
+
+.jumbotron-production-logo {
+	background-image: url("../images/productionLogoPage.jpg");	
+	background-position: 50% 35%;
+	min-height: 150px;
+}
+
+.jumbotron-word-design {
+	background-image: url("../images/wordDesignPage.jpg");	
+	background-position: 50% 50%;
+	min-height: 150px;
+}
+
+.jumbotron-type-design {
+	background-image: url("../images/typeDesignPage.jpg");	
+	background-position: 50% 50%;
+	min-height: 150px;
+}
+
+.jumbotron-self-portrait {
+	background-image: url("../images/selfPortraitPage.jpg");	
+	background-position: 50% 50%;
+	min-height: 150px;
+}
+
+.jumbotron-soundtrack {
+	background-image: url("../images/soundtrackPage.jpg");	
+	background-position: 50% 30%;
+	min-height: 150px;
+}
+
+.bg-dark .project-phase {
+
+	border-top: 5px solid #222222;
+	border-bottom: 5px solid #222222;
+
+}
+
+.bg-light .project-phase {
+
+	border-top: 5px solid #FFFFFF;
+	border-bottom: 5px solid #FFFFFF;
+
+}
+
+.bg-light {
+	background-color: #EEEEEE!important;
+}
+
+
