@@ -67,6 +67,13 @@ h1, h2 {
 	min-height: 150px;
 }
 
+.jumbotron-website-design{
+	background-image: url("../images/websiteDesignPage.jpg");	
+	background-position: 50% 60%;
+	min-height: 150px;
+
+}
+
 .bg-dark .project-phase {
 
 	border-top: 5px solid #222222;
