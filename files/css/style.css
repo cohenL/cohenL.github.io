@@ -81,8 +81,20 @@ h1, h2 {
 
 }
 
+/*Carousel*/
 .bg-light {
 	background-color: #EEEEEE!important;
 }
+
+		/* carousel */
+		.carousel-item {
+		    height: 350px !important;
+		}
+		.carousel-item img {
+		  object-fit: cover;
+		  height:350px !important;
+		  object-position: 50% 50%;
+		}
+
 
 
