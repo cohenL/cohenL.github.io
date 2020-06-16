@@ -25,12 +25,17 @@ h1, h2 {
 	min-height: 325px;
 }
 
-.jumbotron-my-projects {
+.jumbotron-comtech-projects {
 	background-image: url("../images/myProjectsPage.png");	
 	background-position: 50% 35%;
 	min-height: 150px;
 }
 
+.jumbotron-programming-projects {
+	background-image: url("../images/programmingPage.jpg");	
+	background-position: 50% 35%;
+	min-height: 150px;
+}
 .jumbotron-production-logo {
 	background-image: url("../images/productionLogoPage.jpg");	
 	background-position: 50% 35%;
@@ -70,6 +75,12 @@ h1, h2 {
 .jumbotron-website-design{
 	background-image: url("../images/websiteDesignPage.jpg");	
 	background-position: 50% 60%;
+	min-height: 150px;
+
+}
+.jumbotron-composite{
+	background-image: url("../images/compositePage.jpg");	
+	background-position: 50% 50%;
 	min-height: 150px;
 
 }
