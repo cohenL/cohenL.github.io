@@ -31,6 +31,12 @@ h1, h2 {
 	min-height: 150px;
 }
 
+.jumbotron-photography-projects {
+	background-image: url("../images/photographyPage.jpg");	
+	background-position: 50% 70%;
+	min-height: 150px;
+}
+
 .jumbotron-programming-projects {
 	background-image: url("../images/programmingPage.jpg");	
 	background-position: 50% 35%;
