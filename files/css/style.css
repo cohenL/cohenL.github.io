@@ -33,7 +33,7 @@ h1, h2 {
 
 .jumbotron-photography-projects {
 	background-image: url("../images/photographyPage.jpg");	
-	background-position: 50% 70%;
+	background-position: 50% 57%;
 	min-height: 150px;
 }
 
@@ -94,6 +94,12 @@ h1, h2 {
 .jumbotron-about-me{
 	background-image: url("../images/aboutMePage.jpg");	
 	background-position: 50% 60%;
+	min-height: 150px;
+
+}
+.jumbotron-coop{
+	background-image: url("../images/coopPage.jpg");	
+	background-position: 50% 70%;
 	min-height: 150px;
 
 }
