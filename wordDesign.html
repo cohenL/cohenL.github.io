@@ -7,58 +7,21 @@
 	<link rel="stylesheet" type="text/css" href="./files/css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
-   
-	<!-- navbar -->
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-	  <a class="navbar-brand ml-1" href="index.html"><img id="nav-logo" src="./files/images/nav_logo.png"> Cohen Nicholls Ly</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-	    <ul class="navbar-nav ml-auto mr-1">
-	      <li class="nav-item">
-	        <a class="nav-link" href="index.html">Home</a>
-	      </li>
-	      <li class="nav-item dropdown">
-	        <a class="nav-link dropdown-toggle" href="comtech.html" id="navbarDropdownMenuLink" role="button"  aria-haspopup="true" aria-expanded="false">
-	          Comtech
-	        </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-	          <a class="dropdown-item active" href="wordDesign.html">Word Desigh</a>
-	          <a class="dropdown-item" href="typeDesign.html">Type Design</a>
-	          <a class="dropdown-item" href="selfPortrait.html">Self Portrait</a>
-	          <a class="dropdown-item" href="soundtrack.html">Soundtrack</a>
-	          <a class="dropdown-item" href="productionLogo.html">Production Logo</a>
-	          <a class="dropdown-item" href="websiteDesign.html">Website Design</a>
-	          <a class="dropdown-item" href="composite.html">Composite</a>
-	        </div>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="co-op.htm'">Co-Op</a>	       
-	      </li>
-	      <li class="nav-item dropdown">
-	        <a class="nav-link dropdown-toggle" href="programming.html" id="navbarDropdownMenuLink" role="button"  aria-haspopup="true" aria-expanded="false">
-	          Programming
-	        </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-	          <a class="dropdown-item" href="schoolTrivia.html">School Trivia</a>
-	          <a class="dropdown-item" href="factorBetting.html">Factor Betting</a>
-	          <a class="dropdown-item" href="myMusic.html">My Music</a>
-	          <a class="dropdown-item" href="groceryStore.html">Gorcery Store</a>
-	          <a class="dropdown-item" href="finalProject.html">Final Project</a>
-	        </div>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="aboutMe.html">About Me</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="contactMe.html">Contact Me</a>
-	      </li>
-	    </ul>
-	  </div>
-	</nav>
-	<!-- navbar -->
+
+	<script
+	  src="https://code.jquery.com/jquery-3.5.1.js"
+	  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+	  crossorigin="anonymous"></script>
+
+	</head>
+
+	<body>
+
+		<div id="headerPlaceHolder"></div>
+		 
+		<script>
+			$( "#headerPlaceHolder" ).load( "includes.html #header" );
+		</script>
 
 
 	<!-- jumbotron -->
@@ -109,6 +72,12 @@
 		</div>
 		<!-- Word Design 2 -->
 
+	<div id="footerPlaceHolder"></div>
+	 
+	<script>
+	$( "#footerPlaceHolder" ).load( "includes.html #footer" );
+	</script>	
+		
 	<!-- javascript -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
