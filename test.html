@@ -15,11 +15,11 @@
 
 <body>
 
-<div id="header"></div>
- 
-<script>
-$( "#header" ).load( "header-footer.html #header" );
-</script>
+	<div id="headerPlaceHolder"></div>
+	 
+	<script>
+	$( "#headerPlaceHolder" ).load( "includes.html #header" );
+	</script>
 
 	<!-- jumbotron -->
 	<div class="jumbotron jumbotron-fluid text-light jumbotron-coop mb-0 py-4">
@@ -28,6 +28,12 @@ $( "#header" ).load( "header-footer.html #header" );
 		</div>
 	</div>
 	<!-- jumbotron -->
+
+	<div id="footerPlaceHolder"></div>
+	 
+	<script>
+	$( "#footerPlaceHolder" ).load( "includes.html #footer" );
+	</script>
 
 	<!-- javascript -->
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
