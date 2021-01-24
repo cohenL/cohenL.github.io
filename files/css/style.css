@@ -1,3 +1,7 @@
+body {
+	background-color: #343a40;
+}
+
 h1, h2 {
 	font-family: 'Playfair Display', serif;
 }
@@ -39,12 +43,12 @@ h1, h2 {
 
 .jumbotron-programming-projects {
 	background-image: url("../images/programmingPage.jpg");	
-	background-position: 50% 35%;
+	background-position: 50% 95%;
 	min-height: 150px;
 }
 .jumbotron-production-logo {
 	background-image: url("../images/productionLogoPage.jpg");	
-	background-position: 50% 35%;
+	background-position: 50% 65%;
 	min-height: 150px;
 }
 
@@ -74,32 +78,60 @@ h1, h2 {
 
 .jumbotron-contact-me {
 	background-image: url("../images/contactMePage.jpg");	
-	background-position: 50% 60%;
+	background-position: 50% 50%;
 	min-height: 150px;
 }
 
-.jumbotron-website-design{
+.jumbotron-website-design {
 	background-image: url("../images/websiteDesignPage.jpg");	
-	background-position: 50% 60%;
+	background-position: 50% 50%;
 	min-height: 150px;
 
 }
-.jumbotron-composite{
+.jumbotron-composite {
 	background-image: url("../images/compositePage.jpg");	
 	background-position: 50% 50%;
 	min-height: 150px;
 
 }
 
-.jumbotron-about-me{
+.jumbotron-about-me {
 	background-image: url("../images/aboutMePage.jpg");	
-	background-position: 50% 60%;
+	background-position: 50% 50%;
 	min-height: 150px;
 
 }
-.jumbotron-coop{
+.jumbotron-coop {
 	background-image: url("../images/coopPage.jpg");	
 	background-position: 50% 70%;
+	min-height: 150px;
+
+}
+
+.jumbotron-school-trivia {
+	background-image: url("../images/schoolTriviaPage.jpg");	
+	background-position: 50% 20%;
+	min-height: 150px;
+
+}
+
+.jumbotron-factor-betting {
+	background-image: url("../images/factorBettingPage.jpg");	
+	background-position: 50% 50%;
+	min-height: 150px;
+
+}
+
+.jumbotron-my-music {
+	background-image: url("../images/myMusicPage.jpg");	
+	background-position: 50% 45%;
+	min-height: 150px;
+
+}
+
+.jumbotron-final-project {
+	background-image: url("../images/finalProjectPage.jpg");	
+	background-position: 50% 45%;
 	min-height: 150px;
 
 }
