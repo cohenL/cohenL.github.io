@@ -159,7 +159,7 @@ h1, h2 {
 }
 
 .carousel-item img {
-	height: calc(100vh - 360px);
+	height: calc(100vh - 420px);
 	/*background-position: 50% 50%;*/
 	object-fit: cover;
 
