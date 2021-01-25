@@ -6,6 +6,10 @@ h1, h2 {
 	font-family: 'Playfair Display', serif;
 }
 
+.lead {
+	text-shadow: 0px 0px 5px #000000, 0px 0px 8px #FFFFFF;
+}
+
 #nav-logo {
 	height: 40px;
 }
